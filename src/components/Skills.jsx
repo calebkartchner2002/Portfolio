@@ -9,7 +9,7 @@ import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
 
-const logos = [HTML, CSS, JavaScript, ReactImg, Node, GitHub, Tailwind, Mongo]
+// const logos = [HTML, CSS, JavaScript, ReactImg, Node, GitHub, Tailwind, Mongo]
 
 
 // const Skills = (logos) => {
