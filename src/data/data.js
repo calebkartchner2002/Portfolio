@@ -1,5 +1,6 @@
 import WorkIm from '../assets/projects/workImg.jpg'
 import RealEst from '../assets/projects/realestate.jpg'
+import SDL from '../assets/projects/SdlLogo.png'
 
 export const data=[
     {
@@ -12,7 +13,7 @@ export const data=[
     {
         id:2,
         name:"React JS Application",
-        image:RealEst,
+        image:SDL,
         github:"",
         live:"",
     },
