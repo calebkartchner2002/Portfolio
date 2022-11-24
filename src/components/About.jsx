@@ -1,4 +1,5 @@
 import React from 'react'
+import portrait from "../assets/selfPortrait2.JPG"
 
 const About = () => {
   return (
@@ -24,11 +25,7 @@ const About = () => {
               a software expert available at your fingertips?</p>  
             </div>
           </div>
-          <div className='pt-8 max-w-[500px] text-center font-bold text-blue-300'>
-            <p>I am currently a student studying at Utah State University.
-              I have past working experience in web development and HVAC Engineering
-            </p>
-          </div>
+          <img width={'400'} src={portrait} alt='Profile Portrait' className='pt-4'/>
       </div>
     </div>
   );
