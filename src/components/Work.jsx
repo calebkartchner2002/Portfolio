@@ -67,21 +67,21 @@ const callouts = [
     description: '',
     imageSrc: 'https://th.bing.com/th/id/OIP.D7h5oR3BeVkcCCHzwyncIwHaEZ?w=298&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
     imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-    href: '#',
+    href: 'https://sdl.usu.edu/',
   },
   {
     name: 'Aidia - Web Developer',
     description: '',
     imageSrc: 'https://th.bing.com/th/id/OIP.zEUF5KzBX3q2PDWQ3T0YTQHaEW?w=289&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
     imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-    href: '#',
+    href: 'https://theaidia.com/',
   },
   {
     name: 'Kartchner Engineering - HVAC Engineering',
     description: '',
     imageSrc: 'https://th.bing.com/th/id/OIP.Y2v63257epIlGe4AVkqI5AHaEJ?w=325&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7',
     imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-    href: '#',
+    href: 'https://kartchnerengineering.com/',
   },
 ]
 
@@ -91,7 +91,7 @@ const Work = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Work</p>
-          <p className='py-6'>Check out some of my recent work</p>
+          <p className='py-6'>Check out some of my recent jobs</p>
         </div>
 
         <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
@@ -105,7 +105,7 @@ const Work = () => {
                 />
               </div>
               <h3 className="mt-6 text-md text-white-500 pb-4">
-                <a href={callout.href}>
+                <a href={callout.href} target="_blank" rel="noopener noreferrer">
                   <span className="absolute inset-0" />
                   {callout.name}
                 </a>
