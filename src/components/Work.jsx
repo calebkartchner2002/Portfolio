@@ -63,7 +63,7 @@ import React from 'react';
 
 const callouts = [
   {
-    name: 'Space Dynamics Lab - Software Developer',
+    name: 'Space Dynamics Lab - Software Engineer',
     description: '',
     imageSrc: 'https://th.bing.com/th/id/OIP.D7h5oR3BeVkcCCHzwyncIwHaEZ?w=298&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
     imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',

@@ -19,10 +19,7 @@ const About = () => {
             </div>
             <div>
               <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
+              the lives of those around me. I am currently an employee at Space Dynamics lab and am studying computer Science at Utah State University</p>  
             </div>
           </div>
           <img width={'400'} src={portrait} alt='Profile Portrait' className='pt-4'/>

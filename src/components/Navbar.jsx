@@ -9,9 +9,10 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
   
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='font-sans fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <img src={kartchnerLogo} alt="Kartchner Logo" style={{width: '50px'}}/>
+        <div className='text-4xl font-bold inline border-b-4 border-color-accent'>Caleb Ford Kartchner</div>
+        {/* <img src={kartchnerLogo} alt="Kartchner Logo" style={{width: '50px'}}/> */}
       </div>
         
       {/* menu */}
